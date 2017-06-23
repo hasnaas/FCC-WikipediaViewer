@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Philosopher">
+<link rel="stylesheet" href="WikiViewer.css">
+<title>WikiV</title>
+</head>
+<body>
+
+
+<div class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#pnav" aria-expanded="false">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a rel="nofollow" rel="noreferrer"class="navbar-brand" href="#">WikiV</a>
+    </div>
+    <div class="collapse navbar-collapse" id="pnav">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a rel="nofollow" rel="noreferrer"href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a rel="nofollow" rel="noreferrer"id="eng" href="#">English</a></li>
+            <li><a rel="nofollow" rel="noreferrer"href="#" id="fr" >Français</a></li>
+            <li><a rel="nofollow" rel="noreferrer"href="#" id="ar">Arabic</a></li>
+          </ul>
+        </li>
+        <li><a rel="nofollow" rel="noreferrer"href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">RandomArticle</a></li>
+        <li><a rel="nofollow" rel="noreferrer"href="http://www.wikipedia.org" target="_blank">GoToWikipedia</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="main">
+  <div class="jumbotron text-center">
+    <h1> A Custom wikipedia Viewer </h1>
+  <input id="keywords" type="search" placeholder="keywords"><i id="close" class="fa fa-times"></i>
+    <i id ="start" class="fa fa-search"><br><p>Click the search icon to start</p></i><br>
+  
+  </div>
+  <div id="results" class="row center-block">
+  </div>
+</div>
+
+<footer class="section section-primary">
+<div class="container-fluid">
+  <h5 class="text-center">Made By <a rel="nofollow" rel="noreferrer"href="https://codepen.io/hasnaas">Hasna</a></h5>
+  <h5 class="text-center">WikiV <i class="fa fa-copyright"> All Rights Reserved</i></h5>
+</div>
+</footer>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="WikiViewer.js"></script>
+
+</body>
+</html>
+
