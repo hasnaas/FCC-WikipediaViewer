@@ -2,8 +2,8 @@
 
 A custom wikipedia viewer that offers :
 
-*to search by keyworks
-*to access a random article
-*to switch between three languages
+* to search by keywords
+* to access a random article
+* to switch between three languages
 
-built using bootstrap, css and jquery
+Built using bootstrap, css and jquery
